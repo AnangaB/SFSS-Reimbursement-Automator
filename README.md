@@ -2,7 +2,7 @@
 
 This python program was created by me, in order to speed up my tasks as a Treasurer in the SFU Math Student Union. As a treasurer, tasks can get very tedious, as it involves filling out a lot of reimbursement forms for other executives in my union, with essentially similar information each time. To address this, the program automates the process by referencing commonly used data files and generating the required forms efficiently.
 
-### Note: Due to certain issues with pypdf, the filled PDFs may not display correctly in some viewers. In my experience, opening the PDF in Microsoft Edge or Chrome and printing it to PDF resolves the problem.
+### Note: Due to certain issues with the pypdf library, the output filled PDFs may not display correctly in some browser pdf viewers, with some texts turning invisible. However, invisible texts become visible after pdf has been printed physically or printed to pdf.
 
 This program requires 4 things:
 
@@ -76,3 +76,4 @@ Above you can replace the current sample datas (e.g., ./Reimbursement Data/chequ
 ### Managing Reimbursements for Multiple Clubs or Societies
 
 To manage reimbursements for multiple clubs or societies, simply create a separate folder for each club following the same structure as the ```Reimbursement Data/``` folder. Then, when running the program in Step 3 above, use the new folder's paths as input parameters.
+
